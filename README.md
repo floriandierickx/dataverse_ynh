@@ -1,11 +1,11 @@
 # Usage of this package (REMOVE THIS SECTION BEFORE RELEASE)
-- Copy this app before working on it.
-- Edit the `conf/nginx.conf` file to match app prerequisites.
-- Edit the `manifest.json` with app specific info.
-- Edit the `install`, `upgrade`, `remove`, `backup`, and `restore` scripts.
+- [x] Copy this app before working on it.
+- [ ] Edit the `conf/nginx.conf` file to match app prerequisites.
+- [x] Edit the `manifest.json` with app specific info.
+- [ ] Edit the `install`, `upgrade`, `remove`, `backup`, and `restore` scripts.
   - Using the [script helpers documentation.](https://yunohost.org/packaging_apps_helpers)
-- Add a `LICENSE` file for the package.
-- Edit `README.md` and `README_fr.md`.
+- [ ] Add a `LICENSE` file for the package.
+- [ ] Edit `README.md` and `README_fr.md`.
 
 # Example app for YunoHost
 
