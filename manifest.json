@@ -28,17 +28,29 @@
             {
                 "name": "domain",
                 "type": "domain",
+                "ask": {
+                    "en": "Choose a domain for Dataverse",
+                    "fr": "Choisissez un domaine pour Dataverse"
+                },
                 "example": "example.com"
             },
             {
                 "name": "path",
                 "type": "path",
-                "example": "/example",
-                "default": "/example"
+                "ask": {
+                    "en": "Choose a path for Dataverse",
+                    "fr": "Choisissez un chemin pour Dataverse"
+                },
+                "example": "/dataverse",
+                "default": "/dataverse"
             },
             {
                 "name": "admin",
                 "type": "user",
+                "ask": {
+                    "en": "Choose the Dataverse administrator (must be an existing YunoHost user)",
+                    "fr": "Choisissez l'administrateur de Dataverse (doit être un utilisateur YunoHost existant)"
+                },
                 "example": "johndoe"
             },
             {
@@ -50,11 +62,11 @@
                 "name": "language",
                 "type": "string",
                 "ask": {
-                    "en": "Choose the application language",
-                    "fr": "Choisissez la langue de l'application"
+                    "en": "Choose the Dataverse application language",
+                    "fr": "Choisissez la langue de l'application Dataverse"
                 },
                 "choices": ["fr", "en"],
-                "default": "fr"
+                "default": "en"
             },
             {
                 "name": "password",
