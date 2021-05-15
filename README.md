@@ -9,12 +9,12 @@
 
 # Example app for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/REPLACEBYYOURAPP.svg)](https://dash.yunohost.org/appci/app/REPLACEBYYOURAPP) ![](https://ci-apps.yunohost.org/ci/badges/REPLACEBYYOURAPP.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/REPLACEBYYOURAPP.maintain.svg)  
-[![Install REPLACEBYYOURAPP with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=REPLACEBYYOURAPP)
+[![Integration level](https://dash.yunohost.org/integration/dataverse.svg)](https://dash.yunohost.org/appci/app/dataverse) ![](https://ci-apps.yunohost.org/ci/badges/dataverse.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/dataverse.maintain.svg)  
+[![Install Dataverse with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=dataverse)
 
 *[Lire ce readme en français.](./README_fr.md)*
 
-> *This package allows you to install REPLACEBYYOURAPP quickly and simply on a YunoHost server.  
+> *This package allows you to install Dataverse quickly and simply on a YunoHost server.  
 If you don't have YunoHost, please consult [the guide](https://yunohost.org/install) to learn how to install it.*
 
 ## Overview
@@ -24,11 +24,11 @@ Quick description of this app.
 
 ## Screenshots
 
-![](Link to a screenshot of this app.)
+![https://i.imgur.com/QhBb2Xo.png](Link to a screenshot of this app.)
 
 ## Demo
 
-* [Official demo](Link to a demo site for this app.)
+* [Official Dataverse demo](https://demo.dataverse.org)
 
 ## Configuration
 
