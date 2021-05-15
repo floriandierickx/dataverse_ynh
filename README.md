@@ -9,8 +9,8 @@
 
 # Example app for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/dataverse.svg)](https://dash.yunohost.org/appci/app/dataverse) ![](https://ci-apps.yunohost.org/ci/badges/dataverse.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/dataverse.maintain.svg)  
-[![Install Dataverse with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=dataverse)
+[![Integration level](https://dash.yunohost.org/integration/dataverse.svg)](https://dash.yunohost.org/appci/app/dataverse_ynh) ![](https://ci-apps.yunohost.org/ci/badges/dataverse_ynh.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/dataverse_ynh.maintain.svg)  
+[![Install Dataverse with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=dataverse_ynh)
 
 *[Lire ce readme en français.](./README_fr.md)*
 
@@ -36,7 +36,7 @@ How to configure this app: From an admin panel, a plain file with SSH, or any ot
 
 ## Documentation
 
- * Official documentation: Link to the official documentation of this app
+ * Official documentation: https://guides.dataverse.org/en/latest/
  * YunoHost documentation: If specific documentation is needed, feel free to contribute.
 
 ## YunoHost specific features
@@ -48,8 +48,8 @@ Can the app be used by multiple users?
 
 #### Supported architectures
 
-* x86-64 - [![Build Status](https://ci-apps.yunohost.org/ci/logs/REPLACEBYYOURAPP.svg)](https://ci-apps.yunohost.org/ci/apps/REPLACEBYYOURAPP/)
-* ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/REPLACEBYYOURAPP.svg)](https://ci-apps-arm.yunohost.org/ci/apps/REPLACEBYYOURAPP/)
+* x86-64 - [![Build Status](https://ci-apps.yunohost.org/ci/logs/dataverse_ynh.svg)](https://ci-apps.yunohost.org/ci/apps/dataverse_ynh/)
+* ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/dataverse_ynh.svg)](https://ci-apps-arm.yunohost.org/ci/apps/dataverse_ynh/)
 
 ## Limitations
 
@@ -64,7 +64,7 @@ https://yunohost.org/packaging_apps
 
 ## Links
 
- * Report a bug: https://github.com/YunoHost-Apps/REPLACEBYYOURAPP_ynh/issues
+ * Report a bug: https://github.com/floriandierickx/dataverse_ynh/issues
  * App website: Link to the official website of this app.
  * Upstream app repository: Link to the official repository of the upstream app.
  * YunoHost website: https://yunohost.org/
@@ -74,11 +74,11 @@ https://yunohost.org/packaging_apps
 ## Developer info
 
 **Only if you want to use a testing branch for coding, instead of merging directly into master.**
-Please send your pull request to the [testing branch](https://github.com/YunoHost-Apps/REPLACEBYYOURAPP_ynh/tree/testing).
+Please send your pull request to the [testing branch](https://github.com/floriandierickx/dataverse_ynh/tree/testing).
 
 To try the testing branch, please proceed like that.
 ```
-sudo yunohost app install https://github.com/YunoHost-Apps/REPLACEBYYOURAPP_ynh/tree/testing --debug
+sudo yunohost app install https://github.com/floriandierickx/dataverse_ynh/tree/testing --debug
 or
-sudo yunohost app upgrade REPLACEBYYOURAPP -u https://github.com/YunoHost-Apps/REPLACEBYYOURAPP_ynh/tree/testing --debug
+sudo yunohost app upgrade dataverse -u https://github.com/floriandierickx/dataverse_ynh/tree/testing --debug
 ```
